@@ -16,7 +16,6 @@
   flex-direction: column;
   margin: 15px;
 }
-
 @media screen and (min-width: 575px) {
   .blog-item-container {
     flex-direction: row;
@@ -43,7 +42,7 @@
 }
 
 .blog-item-info {
-  font-family: 'Roboto';
+  font-family: roboto;
   width: 100%;
 }
 
@@ -59,7 +58,6 @@
 }
 
 .blog-item-title {
-  font-family: 'Roboto';
   font-size: 18px;
   font-weight: 400;
 }

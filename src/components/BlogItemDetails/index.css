@@ -9,9 +9,9 @@
 @media screen and (min-width: 575px) {
   .blog-container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
 }
 
@@ -29,14 +29,14 @@
   font-size: 14px;
   text-align: center;
   font-weight: bold;
-  font-family: 'Roboto';
+  font-family: roboto;
 }
 
 @media screen and (min-width: 575px) {
   .blog-details-title {
     font-size: 28px;
     text-align: center;
-    font-family: 'Roboto';
+    font-family: roboto;
   }
 }
 
@@ -59,8 +59,8 @@
 }
 
 .blog-image {
-  height: 180px;
   width: 100%;
+  height: 180px;
   border-radius: 8px;
   object-fit: cover;
 }
@@ -68,7 +68,7 @@
 @media screen and (min-width: 575px) {
   .blog-image {
     max-width: 660px;
-    height: 330px;
+    height: 300px;
   }
 }
 

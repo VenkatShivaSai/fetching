@@ -8,21 +8,27 @@ const Header = () => (
       <img
         alt="wave"
         className="logo"
-        src="https://assests.ccbp.in/frontend/react-js/wave-logo-img.png"
+        src="https://assets.ccbp.in/frontend/react-js/wave-logo-img.png"
       />
-      <h1 className="blog-title">Wave</h1>
-      <ul className="nav-menu">
-        <Link className="nav-link" to="/">
-          <li>Home</li>
-        </Link>
-        <Link className="nav-link" to="/about">
-          <li>About</li>
-        </Link>
-        <Link className="nav-link" to="/contact">
-          <li>Contact</li>
-        </Link>
-      </ul>
+      <h1 className="title">Wave</h1>
     </div>
+    <ul className="nav-items-list">
+      <li className="link-item">
+        <Link className="route-link" to="/">
+          Home
+        </Link>
+      </li>
+      <li className="link-item">
+        <Link className="route-link" to="/about">
+          About
+        </Link>
+      </li>
+      <li className="link-item">
+        <Link className="route-link" to="/contact">
+          Contact
+        </Link>
+      </li>
+    </ul>
   </nav>
 )
 

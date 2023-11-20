@@ -8,7 +8,9 @@ const About = () => (
       className="about-img"
     />
     <h1 className="about-heading">About</h1>
-    <p className="about-paragraph">All about Blogs of frontend developers</p>
+    <p className="about-paragraph">
+      I love to create! I am a front-end web developer
+    </p>
   </div>
 )
 
